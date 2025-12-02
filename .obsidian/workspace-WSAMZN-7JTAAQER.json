@@ -1,0 +1,304 @@
+{
+  "main": {
+    "id": "be593df7291e6923",
+    "type": "split",
+    "children": [
+      {
+        "id": "18d46c4840ea3104",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9118a398686e8e1d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Projects/216/Enverus API magic number and tables.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Enverus API magic number and tables"
+            }
+          },
+          {
+            "id": "bec1da2158407803",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SQL DB/Table Plus.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Table Plus"
+            }
+          },
+          {
+            "id": "bc412096291f0c36",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Projects/216/216 Enverus API - Clean up Jira.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "216 Enverus API - Clean up Jira"
+            }
+          },
+          {
+            "id": "c291e09f3cf7c79a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Projects/216/216 Enverus API - Clean up Jira.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "216 Enverus API - Clean up Jira"
+            }
+          },
+          {
+            "id": "13f618d53aa41465",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Projects/216/Enverus API magic number and tables.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Enverus API magic number and tables"
+            }
+          },
+          {
+            "id": "56d79264c5c851a5",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Images/Table Plus Enverus.png"
+              },
+              "icon": "lucide-image",
+              "title": "Table Plus Enverus"
+            }
+          },
+          {
+            "id": "3f352c342032bf54",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SQL DB/PostGIS Extentions Spatial ID.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "PostGIS Extentions Spatial ID"
+            }
+          },
+          {
+            "id": "98e659e7b753ef7e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Projects/216/Enverus API magic number and tables.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Enverus API magic number and tables"
+            }
+          },
+          {
+            "id": "480a6c72c75af3d8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Projects/216/01 Enverus Schema Process 1.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "01 Enverus Schema Process 1"
+            }
+          }
+        ],
+        "currentTab": 8
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "788b30ef744ed9f7",
+    "type": "split",
+    "children": [
+      {
+        "id": "7d27e82cbe5f1887",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b51a05c4510efc34",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "4f4e12cfec7d04dc",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "a88db2f4b7eff8e2",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 319.5
+  },
+  "right": {
+    "id": "f3500e8ad16850d4",
+    "type": "split",
+    "children": [
+      {
+        "id": "4be88d1ed6afcb51",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8251b40c130d0355",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Projects/216/Enverus API magic number and tables.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Enverus API magic number and tables"
+            }
+          },
+          {
+            "id": "fbab234eaf81544e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Projects/216/Enverus API magic number and tables.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Enverus API magic number and tables"
+            }
+          },
+          {
+            "id": "e2b31bef38b445ad",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "12b22f4387fcd262",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Projects/216/Enverus API magic number and tables.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Enverus API magic number and tables"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "b51a05c4510efc34",
+  "lastOpenFiles": [
+    "Todo Lists",
+    "Projects/216/216 Enverus API - Clean up Jira.md",
+    "Projects/Atlas.md",
+    "Projects/216/01 Enverus Schema Process 1.md",
+    "EnverusAPI SRID 4326.png",
+    "Passwords.md",
+    "SQL DB/Table Plus.md",
+    "SQL DB/PostGIS Extentions Spatial ID.md",
+    "Projects/216/Enverus 216.md",
+    "Projects/216/Enverus API magic number and tables.md",
+    "Images/Table Plus Enverus.png",
+    "Images/Atlas Percentage.png",
+    "Pasted image 20251002101017.png",
+    "SQL DB",
+    "Untitled/desktop.ini",
+    "Images",
+    "Projects",
+    "Projects/216"
+  ]
+}

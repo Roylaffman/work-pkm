@@ -1,0 +1,49 @@
+import re
+import pandas as pd
+
+# Define SQL file path and output Excel path
+sql_file = "create_rig-specs.sql"
+output_excel = "rig_specs.xlsx"
+
+# Function to convert SQL data types
+def convert_type(sql_type):
+    if "TEXT" in sql_type.upper():
+        return "String", 32
+    elif "DOUBLE" in sql_type.upper():
+        return "Double", 0
+    elif "TIMESTAMP" in sql_type.upper():
+        return "Date", 0
+    elif "INTEGER" in sql_type.upper() or "BIGINT" in sql_type.upper():
+        return "Big Integer", 0
+    return "Other", 0
+
+# Read SQL file and parse fields
+with open(sql_file, 'r') as file:
+    content = file.read()
+
+fields = re.findall(r'\s*(\w+)\s+([\w\s]+?)(?:,|\))', content.split('(')[1])
+
+# Build schema records
+schema_data = []
+for order, (name, sql_type) in enumerate(fields, start=1):
+    dtype, length = convert_type(sql_type)
+    schema_data.append({
+        "Name": name.lower(),
+        "Alias": name.replace("_", " ").title(),
+        "Type": dtype,
+        "Usage": "Index" if name.lower() == "wellid" else "",
+        "Nullable": "TRUE",
+        "Domain": "",
+        "Default Value": "",
+        "Precision": 18 if dtype == "Double" else 0,
+        "Scale": 8 if dtype == "Double" else 0,
+        "Length": length,
+        "Editable": "TRUE",
+        "Required": "TRUE" if name.lower() == "wellid" else "FALSE",
+        "Geodatabase Order": order
+    })
+
+# Export to Excel
+df = pd.DataFrame(schema_data)
+df.to_excel(output_excel, index=False)
+print(f"Schema report saved to {output_excel}")
